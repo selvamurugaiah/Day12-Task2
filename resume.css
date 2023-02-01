@@ -1,0 +1,29 @@
+.parent{
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    /* grid-template-columns: 100px 300px; */
+    grid-template-columns: 30% 70%;
+
+}
+ .col1{
+    background-color: rgb(14, 48, 48);
+    color: white;
+}
+.col2{
+    background-color: rgb(199, 198, 117);
+    color: rgb(19, 19, 16);
+}
+div{
+    
+    margin: 1px;
+}
+.education{
+    display: grid;
+    grid-template-columns:60% 20% 20%;
+
+}
+h3,h5{
+    background-color: bisque;
+    color: black;
+}
+
